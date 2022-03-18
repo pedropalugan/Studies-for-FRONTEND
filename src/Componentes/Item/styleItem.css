@@ -148,3 +148,15 @@
         width: 110vw;
     }
 }
+
+@media (max-width: 300px){
+    .item-text{
+        width: 220px;
+    }
+    .item-desc{
+        width: 220px;
+    }
+    .item{
+        width: 115vw;
+    }
+}
