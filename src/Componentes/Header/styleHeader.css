@@ -40,13 +40,11 @@
 
 .header_center p{
     margin: 10px;
-    text-transform: uppercase;
 }
 
 .header_right{
     display: flex;
     justify-content: flex-end;
-    text-transform: uppercase;
     margin-right: 15px;
 }
 
