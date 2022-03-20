@@ -7,7 +7,7 @@ Create UI Tesla's FIRST WEBSITE PAGE clone using react
 
 ## Tecnology Used
 
-<div style="display:flex">
+<div display="flex">
   
 ![image](https://user-images.githubusercontent.com/88800549/159143355-e3b4be1c-9bba-4714-b73e-5c4103bf0940.png)
 
