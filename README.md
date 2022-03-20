@@ -33,5 +33,3 @@ Pedro Palugan
 
 Thiago Messias
 
-## Result
-
