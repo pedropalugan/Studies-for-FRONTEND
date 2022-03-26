@@ -24,7 +24,7 @@ Create UI Tesla's FIRST WEBSITE PAGE clone using React JS
   
 ## Site's link
 
-<a>https://sparkly-bunny-9e5c24.netlify.app</a>
+<a target="_blank">https://sparkly-bunny-9e5c24.netlify.app</a>
 
 
 ## Group
