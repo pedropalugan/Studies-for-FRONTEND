@@ -27,7 +27,7 @@ Create UI Tesla's FIRST WEBSITE PAGE clone using React JS
 <a target="_blank">https://sparkly-bunny-9e5c24.netlify.app</a>
 
 
-## Group
+## Squad
 
 Luccas Thiago
 
