@@ -1,10 +1,12 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Gotham', sans-serif;
+  font-weight: 500;
 }
 
-*, input, button {
-  font-family: 'Roboto', sans-serif;
-}
+
 
