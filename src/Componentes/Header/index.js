@@ -41,13 +41,13 @@ const Header = () => {
     <Dropdown.Item className="listItens" href="#/action-8">Used Inventory</Dropdown.Item>
     <Dropdown.Item className="listItens" href="#/action-9">Trade-in</Dropdown.Item>
     <Dropdown.Item className="listItens" href="#/action-10">Test Drive</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-12">Powerwall</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-13">Commercial Energy</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-14">Utilities</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-15">Charging</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-16">Find Us</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-17">Support </Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-18">Investor Relations</Dropdown.Item>
+    <Dropdown.Item className="listItens" href="#/action-11">Powerwall</Dropdown.Item>
+    <Dropdown.Item className="listItens" href="#/action-12">Commercial Energy</Dropdown.Item>
+    <Dropdown.Item className="listItens" href="#/action-13">Utilities</Dropdown.Item>
+    <Dropdown.Item className="listItens" href="#/action-14">Charging</Dropdown.Item>
+    <Dropdown.Item className="listItens" href="#/action-15">Find Us</Dropdown.Item>
+    <Dropdown.Item className="listItens" href="#/action-16">Support </Dropdown.Item>
+    <Dropdown.Item className="listItens" href="#/action-17">Investor Relations</Dropdown.Item>
     <Dropdown.Item className="listItens" href="#/action-19">Shop</Dropdown.Item>
   </Dropdown.Menu>
 </Dropdown>
