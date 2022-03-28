@@ -48,7 +48,7 @@ const Header = () => {
     <Dropdown.Item className="listItens" href="#/action-15">Find Us</Dropdown.Item>
     <Dropdown.Item className="listItens" href="#/action-16">Support </Dropdown.Item>
     <Dropdown.Item className="listItens" href="#/action-17">Investor Relations</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-19">Shop</Dropdown.Item>
+    <Dropdown.Item className="listItens" href="#/action-18">Shop</Dropdown.Item>
   </Dropdown.Menu>
 </Dropdown>
         </div>
