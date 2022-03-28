@@ -1,7 +1,7 @@
 import React from "react";
 import './styleHeader.css'
 import Logo from '../../assets/teslaLogoSmall.svg' 
-import { Dropdown } from "react-bootstrap";
+import { Navbar, Container, Dropdown, NavDropdown, Offcanvas, Nav } from "react-bootstrap";
 
 const Header = () => {
     return(
@@ -25,32 +25,59 @@ const Header = () => {
             </div>
             
             <div className="revealGhostItems">
-            <Dropdown>
-  <Dropdown.Toggle className="revealItems">
-    Menu
-  </Dropdown.Toggle>
-
-  <Dropdown.Menu>
-    <Dropdown.Item className="listItens" href="#/action-1">Model S</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-2">Model 3</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-3">Model X</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-4">Model Y</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-5">Solar Roof</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-6">Solar Panels</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-7">Existing Invetory</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-8">Used Inventory</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-9">Trade-in</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-10">Test Drive</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-11">Powerwall</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-12">Commercial Energy</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-13">Utilities</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-14">Charging</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-15">Find Us</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-16">Support </Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-17">Investor Relations</Dropdown.Item>
-    <Dropdown.Item className="listItens" href="#/action-18">Shop</Dropdown.Item>
-  </Dropdown.Menu>
-</Dropdown>
+            <Navbar className="cont" expand={false}>
+  <Container fluid >
+    <Navbar.Toggle href="#" className="menu"><p>Menu</p></Navbar.Toggle>
+    <Navbar.Offcanvas
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+      placement="end"
+    >
+      <Offcanvas.Header closeButton>
+        <Offcanvas.Title id="offcanvasNavbarLabel"></Offcanvas.Title>
+      </Offcanvas.Header>
+      <Offcanvas.Body>
+        <Nav className="justify-content-end flex-grow-1 pe-3">
+          <Nav.Item className="listItem">Model S</Nav.Item>
+          <Nav.Item className="listItem">Model 3</Nav.Item>
+          <Nav.Item className="listItem">Model X</Nav.Item>
+          <Nav.Item className="listItem">Model Y</Nav.Item>
+          <Nav.Item className="listItem">Solar Roof</Nav.Item>
+          <Nav.Item className="listItem">Solar Panels</Nav.Item>
+          <Nav.Item className="listItem">Existing Inventory</Nav.Item>
+          <Nav.Item className="listItem">Used Inventory</Nav.Item>
+          <Nav.Item className="listItem">Trade-in</Nav.Item>
+          <Nav.Item className="listItem">Test Drive</Nav.Item>
+          <Nav.Item className="listItem">Power Wall</Nav.Item>
+          <Nav.Item className="listItem">Commercial Energy</Nav.Item>
+          <Nav.Item className="listItem">Utillities</Nav.Item>
+          <Nav.Item className="listItem">Charging</Nav.Item>
+          <Nav.Item className="listItem">Find Us</Nav.Item>
+          <Nav.Item className="listItem">Support</Nav.Item>
+          <Nav.Item className="listItem">Investor Relations</Nav.Item>
+          <Nav.Item className="listItem">Shop</Nav.Item>
+          <Nav.Item className="listItem">Account</Nav.Item>
+          <NavDropdown title="More" id="offcanvasNavbarDropdown" className="listItem">
+            <NavDropdown.Item href="#action3">Cybertruck</NavDropdown.Item>
+            <NavDropdown.Item href="#action4">Roadster</NavDropdown.Item>
+            <NavDropdown.Item href="#action5">
+              Semi
+            </NavDropdown.Item>
+            <NavDropdown.Item>News</NavDropdown.Item>
+          </NavDropdown>
+          <NavDropdown title="English">
+            <NavDropdown.Item>Portuguese-Br</NavDropdown.Item>
+            <NavDropdown.Item>Portuguese-Pt</NavDropdown.Item>
+            <NavDropdown.Item>Portuguese-Pt</NavDropdown.Item>
+            <NavDropdown.Item>Italian</NavDropdown.Item>
+            <NavDropdown.Item>Spanish</NavDropdown.Item>
+            <NavDropdown.Item>French</NavDropdown.Item>
+            </NavDropdown>
+        </Nav>
+      </Offcanvas.Body>
+    </Navbar.Offcanvas>
+  </Container>
+</Navbar> 
         </div>
         </div> 
         
