@@ -1,7 +1,7 @@
 import React from "react";
 import './styleHeader.css'
 import Logo from '../../assets/teslaLogoSmall.svg' 
-import { Navbar, Container, Dropdown, NavDropdown, Offcanvas, Nav } from "react-bootstrap";
+import { Navbar, Container, NavDropdown, Offcanvas, Nav } from "react-bootstrap";
 
 const Header = () => {
     return(
