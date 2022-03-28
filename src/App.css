@@ -1,10 +1,15 @@
 @import url('http://fonts.cdnfonts.com/css/gotham');
 
+@font-face {
+  font-family: "Gotham SSM";
+  src: url("http://fonts.cdnfonts.com/css/gotham");
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Gotham', sans-serif;
+  font-family: "Gotham SSM";
   font-weight: 500;
 }
 
