@@ -29,11 +29,11 @@ Create UI Tesla's FIRST WEBSITE PAGE clone using React JS
 
 ## Squad
 
-Luccas Thiago
+<a href="https://github.com/LuccasThiago">Luccas Thiago</a>
 
-Matheus Maia
+<a href="https://github.com/MatheusAlvarez">Matheus Maia</a>
 
-Pedro Palugan
+<a href="https://github.com/pedropalugan">Pedro Palugan</a>
 
-Thiago Messias
+<a href="https://github.com/Thmsantos">Thiago Messias</a>
 
