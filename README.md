@@ -2,7 +2,7 @@
 
 ## Objective
 
-Create UI Tesla's FIRST WEBSITE PAGE clone using React JS 
+Createa very rich man's FIRST WEBSITE PAGE clone using React JS 
 
 <b><h3>Prototype desired</h3></b>
 
